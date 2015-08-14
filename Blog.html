@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Manuel | GA Blog</title>
+	<link href="/normalize.css" rel="stylesheet">
+	<style>
+		body {
+			font-family: sans-serif;
+			margin: 0;
+		}
+		header {
+			padding-top: 60px;
+			background: url("http://www.startupempire.co.uk/wp-content/uploads/2014/11/office-desk-background-2.jpg");
+			background-size: cover;
+			background-position: center;
+			text-align: center;
+		}
+		img {
+			border-radius: 400px;
+			border: 2px solid white;
+			height: 200px;
+			width: 200px;
+		}
+		h1 {
+			font-size: 40px;
+			color: white;
+		}
+		p {
+			font-size: 20px;
+			color: white;
+		}
+		ul {
+			background: rgba(0, 0, 0, 0.5);
+			padding: 10px;
+		}
+		li {
+			display: inline;
+			color: white;
+			text-decoration: none;
+			margin: 0px 10px 0px 10px;
+		}
+		a {
+			text-decoration: none;
+			color: white;
+		}
+		section {
+	      margin: 0 auto;
+	      max-width: 500px;
+	      padding-bottom: 40px
+	    }
+	    article {
+	    	background: #F6F6F5;
+	    	padding: 1px 20px 40px 20px;
+	    	margin: 20px 0px;
+	    }
+		article p  {
+			color: grey;
+			font-weight: 3px;
+		}
+		article h1  {
+			color: black;
+		}
+		button {
+			border: none;
+			border-radius: 400px;
+			width: 50px;
+			padding: 10px;
+			background: #133C4C;
+			color: white;
+		}
+		footer {
+			background: black;
+			padding: 30px;
+			text-align: center;
+		}
+		@media (max-width: 500px) {
+			section {
+				padding: 20px;
+			}
+			ul {
+				background: black;
+			}
+			img {
+				width: 100px;
+				height: 100px;
+			}
+			h1 {
+				font-size: 30px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRTZ6Ks0gjsD0u_BpMA1y6KCYTkeqQUSOQVHgGdcUctZ7k3mqphog">
+		<h1>Manuel's Blog</h1>
+		<p>Tips on how to build websites.</p>
+		<ul>
+			<li><a href="#">About</a></li>
+			<li><a href="#">HTML Tips</a></li>
+			<li><a href="#">CSS Tips</a></li>
+		</ul>
+	</header>
+	<section>
+		<article>
+			<h1>h1 tags are cool</h1>
+			<p> PBR&B. Forage cronut skateboard, health goth craft beer master cleanse PBR street art crucifix next level art party dreamcatcher farm-to-table keytar occupy. Intelligentsia Pitchfork tofu, tousled artisan pug asymmetrical..</p>
+			<button>Like</button>
+		</article>
+		<article>
+			<h1>P tags stand 4 paragraphs</h1>
+			<p>Twee pour-over leggings polaroid messenger bag Williamsburg. Shoreditch salvia pickled, Tumblr cornhole cronut flannel.</p>
+			<button>Like</button>
+		</article>
+		<article>
+			<h1>Learn colors with HEX codes</h1>
+			<p>Williamsburg. Shoreditch salvia pickled, Tumblr cornhole cronut flannel bespoke. Keffiyeh mumblecore actually four dollar toast yr, bitters health goth four loko. Freegan dreamcatcher forage XOXO, fingerstache.</p>
+			<button>Like</button>
+		</article>
+	</section>
+	<footer>
+		<ul>
+			<li>Manuel is amazing! 123</li>
+		</ul>
+	</footer>
+	<script>
+		$("button").on("click", function() {
+			alert("A button has been clicked!")
+		});
+	</script>
+</body>
+</html>
