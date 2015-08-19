@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jingle</title>
+	<style>
+		body {
+		background: #eee;
+		}
+		img {
+			border-radius: 400px;
+			background: #333;
+			height: 120px;
+			width: 120px;
+		}
+		input[type="submit"] {
+			border-radius: 2px;
+			border: none;
+			color: white;
+			font-size: 15px;
+			background: blue;
+			height: 46px;
+			width: 150px;
+		}
+		input[type="name"] {
+			padding-left: 30px;
+			margin-bottom: 20px;
+			font-size: 15px;
+			height: 40px;
+			width: 200px;
+		}
+		input[type="email"] {
+			padding-left: 30px;
+			margin-bottom: 20px;
+			font-size: 15px;
+			height: 40px;
+			width: 200px;
+		}
+		.form {
+			display: block;
+			height: 50px;
+			width: 50px;
+		}
+		.login-form {
+			text-align: center;
+		}
+		.login-form img {
+			margin-bottom: 20px;
+		}
+		h1 {
+			text-align: center;
+		}
+		p {
+			text-align: center;
+			margin: 10px 40px 70px 40px;
+			color: #777;
+		}
+	</style>
+</head>
+<body>
+	<h1>Title Here</h1>
+	<p>Normcore sartorial Schlitz, direct trade wolf hella pickled disrupt.</p>
+	<div class="login-form">
+		<img src="#">
+		<div>
+			<input type="name" placeholder="Name">
+			<input type="email" placeholder="Email"><br />
+			<input type="submit">
+		</div>
+	</div>
+
+	<script>
+		$("submit").on("click", function() {
+			alert("A button has been clicked!")
+		});
+	</script>
+
+</body>
+</html>
